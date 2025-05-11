@@ -1,0 +1,4 @@
+tab = int(input('Qual tabuada você que visualizar?:'))
+
+for i in range(11):
+    print(f'{tab} x {i:2d} = {tab * i:3d}')
